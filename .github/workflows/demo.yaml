@@ -7,3 +7,4 @@ jobs:
     steps:
       - run: echo "secret value is ${{secrets.NAME}}"
       - run: echo "variable value is ${{vars.LOCATION}}"
+      
